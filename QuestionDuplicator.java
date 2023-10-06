@@ -1,6 +1,6 @@
 public class QuestionDuplicator{
     public QuestionDuplicator(){
-
+        //creates a QuestionDuplicator object, has no other details within
     }
 
     public Question dupe(Question question){

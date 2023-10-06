@@ -2,6 +2,7 @@ import java.util.Map;
 import java.util.HashMap;
 
 public class Voter extends Operator implements VoteInterface {
+    //superclass for the students partaking in the quiz
     private Map<String, Question> questions = new HashMap<String, Question>();
 
     public Voter(String voterID){

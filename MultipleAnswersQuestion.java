@@ -12,7 +12,7 @@ public class MultipleAnswersQuestion extends Question implements VoteCheck{
 
     @Override
     public void setVoterVote(Voter voter, boolean simulation){
-        //pick: First a random number generator generates a number of answers voter picks from.
+        //pick: First a random number generator generates a random number that the voter picks from the number of answers in the problem.
         //answer: Second a random number generator generates a random integer from the first to final answer of the problem.
         if(voter == getVoter() && simulation){
             Random random = new Random();

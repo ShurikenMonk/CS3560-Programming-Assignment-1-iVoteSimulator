@@ -1,6 +1,7 @@
 import java.util.List;
 
 public class Question{
+    //base class for Single Answer and select all that apply questions.
     private Moderator moderator;
     private Voter voter;
     private String questionProblem;

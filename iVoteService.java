@@ -4,6 +4,7 @@ import java.util.List;
 public class iVoteService{
     private static int moderatorCount = 1;
     private static int voterCount = 1;
+    //Keeps track of the students and teachers involved.
     private List<Moderator> moderators = new ArrayList<Moderator>();
     private List<Voter> voters = new ArrayList<Voter>();
 

@@ -16,7 +16,6 @@ public class OneAnswerQuestion extends Question implements VoteCheck{
         if(voter == getVoter() && simulation){
             Random random = new Random();
             this.voterVote = random.nextInt(this.getAnswerCount()) + 1;
-            //System.out.printf("Voter %4s choice: %2d\n", voter.getID(), voterVote);
         }
         else if (voter == getVoter()){
             Scanner keyboard = new Scanner(System.in);

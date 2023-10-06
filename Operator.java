@@ -1,4 +1,5 @@
 public class Operator{
+    //base class for students and teacher
     private String ID = null;
 
     public Operator(String ID){

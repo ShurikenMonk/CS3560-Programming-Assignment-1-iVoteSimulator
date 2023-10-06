@@ -1,6 +1,7 @@
 import java.util.List;
 
 public class SimulationDriver{
+    //contains the main class where the program simulation is executed
     private iVoteService iV;
     private Moderator teacher;
     private Question question;
@@ -46,9 +47,14 @@ public class SimulationDriver{
     public static void main(String[] args){
         SimulationDriver iVoteSim = new SimulationDriver();
 
+        System.out.println("Welcome to the iVoteSimulator!"); 
+        
         iVoteSim.iVoteServiceStart();
         iVoteSim.registerTeacher();
+        System.out.println("registering Teacher/Host...");
         iVoteSim.registerStudents(50);
+        System.out.println("registering Students...");
+        
         iVoteSim.createNSubmitQ();
         iVoteSim.votingSection(1);
         iVoteSim.getQuizStatistics();

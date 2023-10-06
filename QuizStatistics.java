@@ -1,6 +1,7 @@
 import java.util.List;
 
 public class QuizStatistics{
+    //class for displaying the results of the quiz
     private boolean multipleAnswers;
     private int answersQ[];
 
