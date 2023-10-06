@@ -3,7 +3,6 @@ import java.util.Random;
 import java.util.Scanner;
 
 public class OneAnswerQuestion extends Question implements VoteCheck{
-    private OneAnswerQuestion dupe;
     private int voterVote;
 
     public OneAnswerQuestion(Moderator moderator, String questionProblem, int answerCount, List<String> answers){

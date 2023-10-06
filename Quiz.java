@@ -29,6 +29,7 @@ public class Quiz{
         System.out.println("\n1. One Answer\n" +
                             "2. Multiple Answers\n" +
                             "Choose type of question: ");
+                            //indented this way to display the output in the final execution
         int type = Character.getNumericValue(keyboard.nextLine().charAt(0));
         if(type != 1 && type != 2){
             throw new RuntimeException(type + "is not a valid input for type of question.");
